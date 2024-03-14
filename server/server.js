@@ -23,7 +23,7 @@ const { OpenAI } = require("openai");
 const openaiApiKey = process.env.OPENAI_API_KEY;
 console.log(`openaiApiKey: ${openaiApiKey}`);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 const server = new ApolloServer({
